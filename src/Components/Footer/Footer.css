@@ -1,0 +1,91 @@
+#Footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top:  100px; 
+}
+#Logo {
+    height: 312px;
+    
+}
+#Logo > h4 {
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 36px;
+color: #000000;
+}
+#Logo > p {
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #9F9F9F;
+}
+.LabelsHeader > label {
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+color: #9F9F9F;
+}
+.LabelsHeader > ul {
+list-style-type: none;
+
+}
+.LabelsHeader >ul >li {
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+color: #000000;
+
+}
+.LabelsHeader{
+    height: 312px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Item{
+    text-decoration: none;
+    color: #000000
+}
+.Item:visited{
+    color: #000000;
+}
+#NewLetter > label{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #9F9F9F;
+}
+#NewLetter{
+    height: 312px;
+}
+#InputField{
+    display: flex;
+}
+#InputField > input{
+    border: none;
+    text-decoration: underline;
+}
+#InputField > button {
+    border: none;
+    background: transparent;
+    text-decoration: underline;
+}
+
+
+@media (max-width: 600px){
+#InputField{
+    display: flex;
+    flex-direction: column;
+}
+
+}

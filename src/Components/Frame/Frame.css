@@ -1,0 +1,55 @@
+#Frame {
+    display: flex;
+  
+    justify-content: space-around;
+    align-items: center;
+    padding: 100px 0px;
+    background: #FAF3EA;
+}
+
+#Part {
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+
+}
+
+#Details {
+    display: flex;
+    flex-direction: column;
+
+}
+
+#Details>h4 {
+    
+    font-weight: 600;
+    font-size: 25px;
+    color: #242424;
+    
+}
+
+#Details>label {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: #898989;
+}
+@media (max-width: 768px) {
+   
+    #Frame {
+        display: flex;
+        flex-direction: column;
+        row-gap: 50px;
+    }
+}
+
+@media (max-width: 1000px) {
+    
+
+    #Frame {
+        display: grid;
+        flex-direction: column;
+        row-gap: 50px;
+    }
+}

@@ -1,0 +1,125 @@
+.cart{
+    height: auto;
+    margin-bottom: 100px;
+}
+.ProductsAdded ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+   row-gap: 100px;
+}
+
+.FirstRow {
+    width: 817px;
+    height: 55px;
+    background: #F9F1E7;
+}
+
+.ItemD {
+    width: auto;
+    height: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #9F9F9F;
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+
+}
+.ItemD img {
+    width: 100px;
+    height: 100px;
+
+    
+}
+
+.TotalPriceBox {
+    text-align: center;
+    width: 393px;
+    height: 390px;
+    background: #F9F1E7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.TotalPriceBox button{
+box-sizing: border-box;
+
+width: 222px;
+height: 58.95px;
+background: transparent;
+border: 1px solid #000000;
+border-radius: 15px;
+cursor: pointer;
+font-weight: 400;
+font-size: 20px;
+
+}
+
+
+.SecondRow button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.MainBox {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 100px;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+
+@media (max-width: 600px) {
+    .MainBox {
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 100px;
+    }
+
+    .FirstRow {
+        width: auto;
+    }
+    .TotalPriceBox{
+        width: auto;
+    }
+    
+}
+
+@media (max-width: 786px) {
+    .MainBox {
+        display: grid;
+        grid-template-columns: 1fr;
+        
+    }
+
+    .FirstRow {
+        width: auto;
+    }
+    .TotalPriceBox{
+        width: auto;
+    }
+ 
+}
+
+@media (max-width: 1000px) {
+    .MainBox {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .FirstRow {
+        width: auto;
+    }
+    .TotalPriceBox{
+        width: auto;
+    }
+}

@@ -1,0 +1,112 @@
+#Dtls {
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
+    justify-content: center;
+}
+
+.PP {
+    width: 400px;
+    height: auto;
+}
+Link:visited{
+    
+}
+
+
+.ProductInfo>h1 {
+
+    width: auto;
+    height:auto;
+    left: 735px;
+    top: 246px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    
+
+
+    color: #000000;
+}
+
+.ProductInfo>h3 {
+
+    font-weight: 500;
+    font-size: 24px;
+
+    color: #9F9F9F;
+}
+
+.ReviewDiv>label {
+    margin-left: 10px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    
+    /* identical to box height */
+
+    color: #9F9F9F;
+}
+
+.btn2 {
+    width: 215px;
+    height: 64px;
+    left: 876px;
+    top: 676px;
+
+    border: 1px solid #000000;
+    border-radius: 15px;
+    margin: 20px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+   
+    cursor: pointer;
+    color: #000000;
+    background: transparent;
+
+
+}
+.CounterWrapper{
+width: 123px;
+height: 64px;
+left: 735px;
+top: 676px;
+background: #FFFFFF;
+border: 1px solid #9F9F9F;
+border-radius: 10px;
+display: flex;
+column-gap: 30px;
+justify-content: center;
+align-items: center;
+}
+.CounterWrapper > button{
+    background: transparent;
+    border: none;
+}
+.Counter{
+    display: flex;
+
+    align-items: center;
+}
+
+@media (max-width: 600px) {
+    #Dtls {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+@media (max-width: 768px) {
+    #Dtls {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+}

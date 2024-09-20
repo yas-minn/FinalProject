@@ -1,0 +1,149 @@
+#HeadDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.Title {
+    width: 375px;
+    height: 54px;
+    left: 533px;
+    top: 514px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 54px;
+    color: #000000;
+}
+
+.SubTitle {
+    width: 644px;
+    height: 48px;
+    left: 398px;
+    top: 575px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #9F9F9F;
+    margin-bottom: 100px;
+
+}
+.LeftPart{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Text > p {
+width: 212px;
+height: 72px;
+left: 297px;
+top: 799px;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #000000;
+
+
+
+}
+#SecondHalf{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+   
+    
+}
+
+.ContactForm > form > div{
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+.ContactForm > form > div > label{
+width: 111.25px;
+height: 24px;
+left: 667px;
+top: 756px;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+color: #000000;
+
+}
+.ContactForm > form > div > input{
+box-sizing: border-box;
+width: 528.75px;
+height: 75px;
+left: 668.25px;
+top: 802px;
+
+background: #FFFFFF;
+border: 1px solid #9F9F9F;
+border-radius: 10px;
+
+}
+.ContactForm > form > div > textarea{
+box-sizing: border-box;
+width: 527px;
+height: 120px;
+left: 667px;
+top: 1273px;
+
+background: #FFFFFF;
+border: 1px solid #9F9F9F;
+border-radius: 10px;
+
+}
+form > button{
+
+box-sizing: border-box;
+width: 237px;
+height: 55px;
+left: 673px;
+top: 1442px;
+background: #B88E2F;
+border: 1px solid #B88E2F;
+border-radius: 5px;
+color: #FFFFFF;
+margin-bottom: 40px;
+margin-top: 20px;
+
+
+
+}
+
+@media (max-width: 600px) {
+    .SubTitle {
+        width: 400px;
+        padding-bottom: 5px;
+    }
+    #SecondHalf{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .ContactForm > form > div > input{
+        width: 400px;
+    }
+    .ContactForm > form > div > textarea{
+        width: 400px;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .SubTitle {
+        width: 400px;
+        padding-bottom: 5px;
+    }
+    #SecondHalf{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 10px;
+    }
+
+}
